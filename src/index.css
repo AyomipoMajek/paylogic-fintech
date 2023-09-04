@@ -35,12 +35,15 @@ ul li {
 }
 
 .btn {
+  /* display: flex;
+  align-items: center; */
   padding: 10px 20px;
-  background: linear-gradient(to bottom, #703edf, #a898c9);
+  background: linear-gradient(to bottom, #703edf, #c5b6e6);
   border: none;
   font-weight: 500;
   cursor: pointer;
   border-radius: 30px;
+  color: #fff;
 }
 
 .btn:hover {

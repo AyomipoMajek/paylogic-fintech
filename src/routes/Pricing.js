@@ -1,8 +1,12 @@
 import './pricing.css';
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const Pricing = () => (
-  <div>Pricing</div>
+  <div>
+    <Navbar />
+
+  </div>
 );
 
 export default Pricing;
