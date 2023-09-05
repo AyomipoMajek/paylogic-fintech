@@ -35,8 +35,6 @@ ul li {
 }
 
 .btn {
-  /* display: flex;
-  align-items: center; */
   padding: 10px 20px;
   background: linear-gradient(to bottom, #703edf, #c5b6e6);
   border: none;

@@ -5,6 +5,9 @@ import googleplay from '../assets/googleplay.svg';
 import phone1 from '../assets/phone1.svg';
 import phone2 from '../assets/phone2.svg';
 import phone3 from '../assets/phone3.svg';
+import coinbase from '../assets/coinbase.svg';
+import spotify from '../assets/spotify.svg';
+import flutterwave from '../assets/flutterwave.svg';
 
 const Homepage = () => (
   <div className="homepage">
@@ -43,6 +46,17 @@ const Homepage = () => (
       </div>
       <div>
         <h3 className="quote">Trusted by World Leading Organisations</h3>
+        <ul className="thesocials">
+          <li>
+            <img className="coinbase" src={coinbase} alt="coinbase" />
+          </li>
+          <li>
+            <img className="spotify" src={spotify} alt="spotify" />
+          </li>
+          <li>
+            <img className="flutterwave" src={flutterwave} alt="flutterwave" />
+          </li>
+        </ul>
       </div>
     </div>
   </div>

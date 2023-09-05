@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
   padding-left: 20px;
 }
 
@@ -21,12 +22,13 @@
   width: 15px;
   filter: brightness(0) invert(1);
   padding-right: 5px;
+  vertical-align: middle;
 }
 
 #btn3 {
   font-size: 12px;
-  padding: 10px 15px;
-  margin: 40px 2px;
+  padding: 8px 12px;
+  margin: 40px 5px;
 }
 
 .theimage {
@@ -58,5 +60,93 @@
 }
 
 .quote {
-  top: 50px;
+  margin-top: 20rem;
+  font-size: 18px;
+}
+
+.thesocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.thesocials li {
+  padding: 0 2PX;
+}
+
+.thesocials img {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .main h1 {
+    font-weight: 700;
+    font-size: 40px;
+    width: 45%;
+    line-height: 58.5px;
+    margin-left: 26rem;
+    margin-top: 7rem;
+  }
+
+  .main p {
+    font-size: 18px;
+    width: 60%;
+    margin-left: 20rem;
+  }
+
+  .btnlogo {
+    width: 20px;
+  }
+
+  .buttons {
+    margin-left: 4rem;
+  }
+
+  #btn3 {
+    font-size: 18px;
+    padding: 10px 12px;
+    margin: 40px 10px;
+  }
+
+  .theimage {
+    margin-left: 32rem;
+  }
+
+    
+  .phone1 {
+    width: 20rem;
+    left: -150px;
+  }
+
+  .phone2 {
+    width: 26rem;
+    top: -30px;
+    left: 40px;
+  }
+
+  .phone3 {
+    width: 20rem;
+    left: 320px;
+  }
+
+  .quote {
+    margin-top: 45rem;
+    font-size: 32px;
+    margin-left: 3.2rem;
+  }
+
+  .thesocials {
+    width: 40%;
+    margin-left: 27rem;
+  }
+  
+  .thesocials li {
+    padding: 0;
+  }
+  
+  .thesocials img {
+    width: 130%;
+  }
+  
 }
