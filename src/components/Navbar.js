@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className="header">
       <Link to="/" className="logo">
-        <img src={P} alt="logo" />
-        <img src={PayLogic} alt="logo" />
+        <img className="pee" src={P} alt="logo" />
+        <img className="word" src={PayLogic} alt="logo" />
       </Link>
       <div className="all">
         <ul className={click ? 'nav-menu active'
