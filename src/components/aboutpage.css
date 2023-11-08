@@ -61,6 +61,10 @@
   color: #703EDF;
 }
 
+.the-offers {
+  display: flex;
+}
+
 @media screen and (min-width: 768px) {
   .services {
     display: flex;

@@ -84,9 +84,8 @@
 @media screen and (min-width: 768px) {
   .main h1 {
     font-weight: 700;
-    font-size: 40px;
-    width: 45%;
-    line-height: 58.5px;
+    font-size: 30px;
+    line-height: 40px;
     margin-left: 24rem;
     margin-top: 7rem;
   }
@@ -153,7 +152,7 @@
   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .main h1 {
     width: 80%;
     margin-left: 6rem;

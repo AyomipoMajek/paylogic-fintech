@@ -109,16 +109,20 @@
   }
 
   .header {
-    margin-left: 2rem;
-    padding: 1.5rem 0;
+    /* margin-left: 2rem; */
+    padding: 1.2rem 1.5rem;
     /* position: fixed; */
+  }
+
+  .all {
+    margin-left: 6rem;
   }
 
   .nav-menu {
     display: flex;
     flex-direction: row;
     position: static;
-    width: 80%;
+    width: 65%;
     height: auto;
     background: none;
     transition: none;
@@ -128,31 +132,57 @@
 
   .nav-menu li {
     list-style: none;
-    padding: 0 1.5rem;
+    padding: 0 0.7rem;
   }
 
   .nav-menu li a {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 500;
   }
 
   #user {
     width: 50%;
-    margin-left: 57.5rem;
-    margin-top: -3rem;
+    margin-left: 27.5rem;
+    margin-top: -2rem;
   }
 
   #btn1 {
     width: 30%;
     margin-right: 20px;
+    padding: 4px;
   }
 
   #btn2 {
     width: 30%;
+    padding: 4px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .nav-menu {
+    width: 70%;
+    margin-left: 30px;
+  }
+
+  .nav-menu li {
+    padding: 0 1rem;
+  }
+  
+  .nav-menu li a {
+    font-size: 0.8rem;
+  }
+
+  #user {
+    margin-top: -2rem;
+    margin-left: 38.8rem;
+  }
+
+  .logo {
+    top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .nav-menu {
     width: 70%;
     margin-left: 60px;
@@ -167,11 +197,25 @@
   }
 
   #user {
-    margin-top: -2.5rem;
-    margin-left: 38.8rem;
+    margin-top: -2.8rem;
+    margin-left: 58rem;
   }
 
   .logo {
     top: 1rem;
+  }
+
+  #btn1 {
+    width: 30%;
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 15px;
+
+  }
+
+  #btn2 {
+    font-size: 15px;
+    width: 30%;
+    padding: 8px;
   }
 }
