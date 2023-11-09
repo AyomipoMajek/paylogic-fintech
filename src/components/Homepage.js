@@ -25,14 +25,14 @@ const Homepage = () => (
 
       <div className="buttons">
         <button className="btn" id="btn3" type="button">
-          <img className="btnlogo" src={appstore} alt="applelogo" />
+          <img className="btnlogo" src={googleplay} alt="playstore-logo" />
           Get on&nbsp;
           <b>
             Playstore
           </b>
         </button>
         <button className="btn" id="btn3" type="button">
-          <img className="btnlogo" src={googleplay} alt="applelogo" />
+          <img className="btnlogo" src={appstore} alt="apple-logo" />
           Get on&nbsp;
           <b>
             Appstore
@@ -47,14 +47,14 @@ const Homepage = () => (
       <div>
         <h3 className="quote">Trusted by World Leading Organisations</h3>
         <ul className="thesocials">
-          <li>
-            <img className="coinbase" src={coinbase} alt="coinbase" />
+          <li className="coinbase">
+            <img src={coinbase} alt="coinbase" />
           </li>
-          <li>
-            <img className="spotify" src={spotify} alt="spotify" />
+          <li className="spotify">
+            <img src={spotify} alt="spotify" />
           </li>
-          <li>
-            <img className="flutterwave" src={flutterwave} alt="flutterwave" />
+          <li className="flutterwave">
+            <img src={flutterwave} alt="flutterwave" />
           </li>
         </ul>
       </div>
