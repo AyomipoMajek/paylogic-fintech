@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './aboutpage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faCircleChevronRight, faCircleChevronUp } from '@fortawesome/free-solid-svg-icons';
 import safety from '../assets/safety.jpg';
 import tech from '../assets/tech.jpg';
 import solution from '../assets/solution.jpg';
@@ -43,8 +43,17 @@ const Aboutpage = () => {
               type="button"
               onClick={() => setShowSafety(!showSafety)}
             >
-              {showSafety ? 'Show less' : 'Learn more'}
-              <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+              {showSafety ? (
+                <>
+                  Show less
+                  <FontAwesomeIcon icon={faCircleChevronUp} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              ) : (
+                <>
+                  Learn more
+                  <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              )}
             </button>
           </div>
           <div className="service">
@@ -69,8 +78,17 @@ const Aboutpage = () => {
               type="button"
               onClick={() => setShowTech(!showTech)}
             >
-              {showTech ? 'Show less' : 'Learn more'}
-              <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+              {showTech ? (
+                <>
+                  Show less
+                  <FontAwesomeIcon icon={faCircleChevronUp} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              ) : (
+                <>
+                  Learn more
+                  <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              )}
             </button>
           </div>
           <div className="service">
@@ -95,8 +113,17 @@ const Aboutpage = () => {
               type="button"
               onClick={() => setShowSolution(!showSolution)}
             >
-              {showSolution ? 'Show less' : 'Learn more'}
-              <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+              {showSolution ? (
+                <>
+                  Show less
+                  <FontAwesomeIcon icon={faCircleChevronUp} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              ) : (
+                <>
+                  Learn more
+                  <FontAwesomeIcon icon={faCircleChevronRight} style={{ color: '#703EDF', alignSelf: 'center', paddingLeft: '5px' }} />
+                </>
+              )}
             </button>
           </div>
         </div>
@@ -104,21 +131,23 @@ const Aboutpage = () => {
       <section className="offers">
         <h1>Unlock a new potential with us</h1>
         <div className="the-offers">
-          <div className="offer">
-            <h1>1</h1>
-            <h3>Secure Payments Solutions</h3>
-            <p>
-              Enjoy seamless and secure online transactions,
-              money transfers, and bill payments with our trusted payment solutions.
-            </p>
-          </div>
-          <div className="offer">
-            <h1>2</h1>
-            <h3>Budgeting and Expense Tracking</h3>
-            <p>
-              Our platform provides intuitive tools to help you create budgets, track
-              expenses and gain insights into your spending habit.
-            </p>
+          <div className="one-two">
+            <div className="offer">
+              <h1>1</h1>
+              <h3>Secure Payments Solutions</h3>
+              <p>
+                Enjoy seamless and secure online transactions,
+                money transfers, and bill payments with our trusted payment solutions.
+              </p>
+            </div>
+            <div className="offer">
+              <h1>2</h1>
+              <h3>Budgeting and Expense Tracking</h3>
+              <p>
+                Our platform provides intuitive tools to help you create budgets, track
+                expenses and gain insights into your spending habit.
+              </p>
+            </div>
           </div>
           <div className="offer">
             <h1>3</h1>

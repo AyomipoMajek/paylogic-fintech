@@ -16,7 +16,6 @@
   padding-left: 15px;
   font-size: 12px;
   line-height: 18px;
-  /* width: 90%; */
 }
 
 .service {
@@ -27,8 +26,7 @@
   flex-direction: column;
   text-align: center;
   margin: 15px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .service h3 {
@@ -61,8 +59,71 @@
   color: #703EDF;
 }
 
+.offers {
+  text-align: center;
+  padding-left: 20px;
+}
+
 .the-offers {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.one-two {
+  display: flex;
+  flex-direction: row;
+}
+
+.offers h1 {
+  text-align: center;
+  padding: 3rem 2rem;
+  font-size: 20px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  max-width: 165px;
+  margin: 5px;
+}
+
+.offer:hover {
+  border-top: solid 1px #703EDF;
+}
+
+.offer h1 {
+  font-size: 16px;
+  padding:3px;
+  margin: 1rem 0;
+  border-radius: 70px;
+  display: none;
+}
+
+.offer:hover h1 {
+  display: block;
+  color: #fff;
+  background-color: #703EDF;
+  width: 6.5vw;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.offer h3 {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.offer:hover h3 {
+  color: #703EDF;
+}
+
+.offer p {
+  padding: 0 5px;
+  font-size: 12px;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -71,7 +132,35 @@
     flex-direction: row;
   }
 
-  .service {
-    
+  .reason-p {
+    width: 65%;
+  }
+
+  .learnbtn {
+    font-size: 13px;
+    padding-top: 2rem;
+  }
+
+  .the-offers {
+    padding-left: 20px;
+  }
+
+  .offer {
+    max-width: 230px;
+  }
+
+  .offer:hover h1 {
+    width: 2.7vw;
+  }
+
+  .offer h3 {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+
+  .offer p {
+    padding: 0 5px;
+    font-size: 12px;
+    margin: 1rem 0.5rem;
   }
 }
