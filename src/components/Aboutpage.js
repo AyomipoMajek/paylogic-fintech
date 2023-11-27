@@ -129,7 +129,7 @@ const Aboutpage = () => {
         </div>
       </section>
       <section className="offers">
-        <h1>Unlock a new potential with us</h1>
+        <h1 id="unlock">Unlock a new potential with us</h1>
         <div className="the-offers">
           <div className="one-two">
             <div className="offer">

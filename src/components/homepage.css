@@ -173,8 +173,10 @@
   }
 
   .main p {
-    width: 55%;
-    margin: 0 15rem;
+    width: 65%;
+    margin: 0 13rem;
+    font-size: 17px;
+    line-height: 25px;
   }
 
   .buttons {
@@ -219,9 +221,9 @@
   }
 
   .main p {
-    font-size: 15px;
-    width: 48%;
-    padding-left: 10.5rem;
+    font-size: 20px;
+    width: 58%;
+    padding-left: 9rem;
   }
 
   .btnlogo {
