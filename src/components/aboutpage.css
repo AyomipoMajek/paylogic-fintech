@@ -1,6 +1,6 @@
 .reason {
   background-color: #703EDF;
-  width: 106.5vw;
+  width: fit-content;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -127,9 +127,21 @@
 }
 
 @media screen and (min-width: 768px) {
+  .service {
+    padding: 0;
+  }
+
   .services {
     display: flex;
     flex-direction: row;
+  }
+
+  .service h3 {
+    font-size: 16px;
+  }
+
+  .reason {
+    padding: 1.5rem 1.5rem;
   }
 
   .reason-p {
@@ -137,13 +149,18 @@
   }
 
   .learnbtn {
-    font-size: 13px;
-    padding-top: 2rem;
+    font-size: 11px;
+    padding: 2rem 0;
   }
 
-  .the-offers {
-    padding-left: 20px;
+  .offers {
+    margin-bottom: 4rem;
+    padding-left: 0;
   }
+
+  /* .the-offers {
+    padding-left: 0;
+  } */
 
   .offer {
     max-width: 230px;
@@ -167,6 +184,10 @@
 
 @media screen and (min-width: 1024px) {
 
+  .reason {
+    padding: 2.5rem 1.5rem;
+  }
+
   .reason h1 {
     font-size: 30px;
   }
@@ -176,6 +197,10 @@
     font-size: 16px;
     line-height: 25px;
   }
+  
+  .learnbtn {
+    font-size: 15px;
+  }
 
   .service p {
     font-size: 14px;
@@ -184,6 +209,7 @@
   
   .offers {
     margin-bottom: 4rem;
+    padding-left: 0;
   }
 
   #unlock {
@@ -191,9 +217,9 @@
     padding: 3rem 20rem;
   }
 
-  .the-offers {
+  /* .the-offers {
     padding-left: 14px;
-  }
+  } */
 
   .offer {
     max-width: 320px;
@@ -204,16 +230,104 @@
   }
 
   .offer h3 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 0;
   }
 
   .offer p {
     padding: 0 5px;
-    font-size: 18px;
+    font-size: 15px;
     margin: 0.2rem 0.5rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    /* gap: 1rem; */
+  }
+
+  .reason {
+    padding: 4rem 3rem;
+  }
+
+  .reason h1 {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .reason-p {
+    width: 65%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+  }
+
+  .learnbtn {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+
+  .service {
+    margin: 15px 25px;
+    padding: 10px 0;
+  }
+
+  .service h3 {
+    font-size: 20px;
+  }
+
+  .service p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .service img {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    padding: 20px 0;
+  }
+  
+  .offers {
+    margin-bottom: 4rem;
+    padding-left: 0;
+  }
+
+  #unlock {
+    font-size: 40px;
+    padding: 3rem 30rem;
+    margin-top: 4rem;
+  }
+
+  /* .the-offers {
+    padding-left: 2.5rem;
+  } */
+
+  .offer {
+    max-width: 450px;
+  }
+
+  .offer h1 {
+    font-size: 25px;
+  }
+
+  .offer:hover h1 {
+    padding: 5px;
+    width: 2.2vw;
+  }
+
+  .offer h3 {
+    font-size: 25px;
+    padding: 10px 0;
+  }
+
+  .offer p {
+    padding: 0 5px;
+    font-size: 20px;
+    margin: 0.2rem 0.5rem;
+  }
 }

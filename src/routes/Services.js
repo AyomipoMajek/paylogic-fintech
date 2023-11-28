@@ -1,11 +1,11 @@
-import './services.css';
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Servicespage from '../components/Servicespage';
 
 const Services = () => (
   <div>
     <Navbar />
-    <h1>rollwe</h1>
+    <Servicespage />
   </div>
 );
 

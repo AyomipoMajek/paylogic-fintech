@@ -1,4 +1,3 @@
-import './pricing.css';
 import React from 'react';
 import Navbar from '../components/Navbar';
 
