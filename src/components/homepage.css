@@ -3,7 +3,8 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 20px;
 }
 
@@ -29,7 +30,7 @@
 
 #btn3 {
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   margin: 40px 5px;
 }
 
@@ -41,29 +42,35 @@
 .phone2,
 .phone3 {
   position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .phone1 {
+  width: 7rem;
   z-index: 1;
   top: 5px;
-  left: -10px;
+  left: 10px;
 }
 
 .phone2 {
+  width: 9.5rem;
   z-index: 1;
-  top: -20px;
-  left: 60px;
+  top: -15px;
+  left: 78px;
 }
 
 .phone3 {
+  width: 7rem;
   z-index: 0;
   top: 0;
   left: 180px;
 }
 
 .quote {
-  margin-top: 20rem;
-  font-size: 18px;
+  margin-top: 16rem;
+  font-size: 15px;
 }
 
 .thesocials {
@@ -118,7 +125,6 @@
     margin-left: 10.5rem;
   }
 
-    
   .phone1 {
     width: 16rem;
     left: -100px;
