@@ -56,19 +56,28 @@ const Blogpage = () => (
         <div className="socialmedia">
           <ul className="socials">
             <li>
-              <img src={twitter} alt="twitter" />
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src={twitter} alt="twitter" />
+              </a>
             </li>
             <li>
-              <img src={linkedn} alt="linkedn" />
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src={linkedn} alt="linkedn" />
+              </a>
             </li>
             <li>
-              <img src={instagram} alt="instagram" />
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src={instagram} alt="instagram" />
+              </a>
             </li>
             <li>
-              <img src={facebook} alt="facebook" />
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src={facebook} alt="facebook" />
+              </a>
             </li>
           </ul>
         </div>
+
       </div>
       <footer className="footer">
         <p>
