@@ -44,12 +44,12 @@ ul li {
   color: #fff;
 }
 
-/* .btn:hover {
+.btn:hover {
   background: #f3f3f4;
   color: #000;
   transition: 0.3s;
   border: none;
-} */
+}
 
 .btn:hover .btnlogo {
   filter: brightness(0) invert(0);
