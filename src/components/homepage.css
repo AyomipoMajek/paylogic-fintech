@@ -1,0 +1,289 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.main h1 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 5rem;
+}
+
+.main p {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.btnlogo {
+  /* color: #fff; */
+  width: 15px;
+  filter: brightness(0) invert(1);
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+#btn3 {
+  font-size: 12px;
+  padding: 10px 12px;
+  margin: 40px 5px;
+}
+
+.theimage {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.phone1,
+.phone2,
+.phone3 {
+  position: absolute;
+}
+
+.phone1 {
+  width: 7rem;
+  z-index: 1;
+  top: 5px;
+  left: 5vw;
+}
+
+.phone2 {
+  width: 9.5rem;
+  z-index: 1;
+  top: -15px;
+  left: 24vw;
+}
+
+.phone3 {
+  width: 7rem;
+  z-index: 0;
+  top: 0;
+  left: 56vw;
+}
+
+.quote {
+  margin-top: 16rem;
+  font-size: 15px;
+}
+
+.thesocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.thesocials li {
+  padding: 0 2px;
+}
+
+.thesocials img {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .main h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+    /* margin-left: 24rem; */
+    margin-top: 6rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .main p {
+    font-size: 12px;
+    line-height: 20px;
+
+    /* width: 60%; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .btnlogo {
+    width: 15px;
+  }
+
+  #btn3 {
+    font-size: 13px;
+    padding: 6px 12px;
+    margin: 30px 10px;
+  }
+
+  .theimage {
+    margin-left: 10.5rem;
+  }
+
+  .phone1 {
+    width: 16rem;
+    left: -100px;
+  }
+
+  .phone2 {
+    width: 21rem;
+    top: -30px;
+    left: 40px;
+  }
+
+  .phone3 {
+    width: 16rem;
+    left: 250px;
+  }
+
+  .quote {
+    margin-top: 38rem;
+    font-size: 25px;
+  }
+
+  .thesocials {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 8.2rem;
+  }
+
+  .thesocials li {
+    padding: 0 2rem;
+  }
+
+  .coinbase img {
+    width: 5rem;
+  }
+
+  .spotify img {
+    width: 5rem;
+  }
+
+  .flutterwave img {
+    width: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main h1 {
+    margin-left: 16rem;
+    margin-right: 16rem;
+    margin-top: 8rem;
+  }
+
+  .main p {
+    width: 65%;
+    margin: 0 11.5rem;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .buttons {
+    margin-left: 0;
+  }
+
+  .theimage {
+    margin-left: 19rem;
+  }
+
+  .phone1 {
+    width: 17rem;
+    left: -130px;
+  }
+
+  .phone2 {
+    width: 23rem;
+    top: -30px;
+    left: 20px;
+  }
+
+  .phone3 {
+    width: 17rem;
+    left: 270px;
+  }
+
+  .quote {
+    margin-top: 40rem;
+    margin-left: 0;
+  }
+
+  .thesocials {
+    margin-left: 16.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main h1 {
+    margin-top: 8rem;
+    width: 35%;
+    padding-left: 14rem;
+  }
+
+  .main p {
+    font-size: 20px;
+    width: 58%;
+    padding-left: 8.5rem;
+  }
+
+  .btnlogo {
+    width: 18px;
+  }
+
+  .buttons {
+    margin-left: 2rem;
+  }
+
+  #btn3 {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .theimage {
+    margin-left: 33rem;
+  }
+
+  .phone1 {
+    width: 17rem;
+    left: -140px;
+  }
+
+  .phone2 {
+    width: 23rem;
+    top: -30px;
+    left: 20px;
+  }
+
+  .phone3 {
+    width: 17rem;
+    left: 270px;
+  }
+
+  .quote {
+    margin-top: 40rem;
+    margin-left: 1.5rem;
+  }
+
+  .thesocials {
+    margin-left: 30.5rem;
+  }
+
+  .thesocials li {
+    padding: 1rem;
+  }
+
+  .coinbase img {
+    width: 7rem;
+  }
+
+  .spotify img {
+    width: 6rem;
+  }
+
+  .flutterwave img {
+    width: 10rem;
+  }
+}

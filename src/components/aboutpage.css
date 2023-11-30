@@ -1,0 +1,175 @@
+.reason {
+  background-color: #703edf;
+  width: fit-content;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.reason h1 {
+  padding: 10px 15px;
+  color: #f8ed09;
+  font-size: 24px;
+}
+
+.reason-p {
+  color: #fff;
+  padding-left: 15px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.service {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+
+  /* padding: 10px 0; */
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.service p {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 25px;
+}
+
+.service img {
+  width: 35px;
+  height: 35px;
+  align-self: center;
+  padding: 20px 0;
+}
+
+.learnbtn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 0;
+  width: 40%;
+  align-self: center;
+  background: none;
+  border: none;
+  color: #703edf;
+}
+
+@media screen and (min-width: 768px) {
+  .service {
+    padding: 0;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .service h3 {
+    font-size: 16px;
+  }
+
+  .reason {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .reason-p {
+    width: 65%;
+  }
+
+  .learnbtn {
+    font-size: 11px;
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reason {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .reason h1 {
+    font-size: 30px;
+  }
+
+  .reason-p {
+    width: 65%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .learnbtn {
+    font-size: 15px;
+  }
+
+  .service p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reason {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+
+    /* gap: 1rem; */
+  }
+
+  .reason h1 {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .reason-p {
+    width: 65%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+  }
+
+  .learnbtn {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+
+  .service {
+    margin: 15px 25px;
+    padding: 10px 0;
+  }
+
+  .service h3 {
+    font-size: 20px;
+  }
+
+  .service p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .service img {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    padding: 20px 0;
+  }
+}
