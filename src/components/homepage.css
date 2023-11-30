@@ -81,7 +81,7 @@
 }
 
 .thesocials li {
-  padding: 0 2PX;
+  padding: 0 2px;
 }
 
 .thesocials img {
@@ -93,6 +93,7 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
+
     /* margin-left: 24rem; */
     margin-top: 6rem;
     margin-left: 8rem;
@@ -102,6 +103,7 @@
   .main p {
     font-size: 12px;
     line-height: 20px;
+
     /* width: 60%; */
     margin-left: 5rem;
     margin-right: 5rem;
@@ -152,11 +154,11 @@
     width: 30%;
     margin-left: 8.2rem;
   }
-  
+
   .thesocials li {
     padding: 0 2rem;
   }
-  
+
   .coinbase img {
     width: 5rem;
   }
@@ -168,7 +170,6 @@
   .flutterwave img {
     width: 8rem;
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
@@ -192,7 +193,7 @@
   .theimage {
     margin-left: 19rem;
   }
-    
+
   .phone1 {
     width: 17rem;
     left: -130px;
@@ -248,7 +249,7 @@
   .theimage {
     margin-left: 33rem;
   }
-    
+
   .phone1 {
     width: 17rem;
     left: -140px;

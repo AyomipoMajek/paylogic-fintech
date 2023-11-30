@@ -1,5 +1,5 @@
 .reason {
-  background-color: #703EDF;
+  background-color: #703edf;
   width: fit-content;
   padding-bottom: 20px;
   padding-top: 60px;
@@ -7,7 +7,7 @@
 
 .reason h1 {
   padding: 10px 15px;
-  color: #F8ED09;
+  color: #f8ed09;
   font-size: 24px;
 }
 
@@ -26,6 +26,7 @@
   flex-direction: column;
   text-align: center;
   margin: 15px;
+
   /* padding: 10px 0; */
 }
 
@@ -56,7 +57,7 @@
   align-self: center;
   background: none;
   border: none;
-  color: #703EDF;
+  color: #703edf;
 }
 
 @media screen and (min-width: 768px) {
@@ -91,7 +92,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .reason {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -108,7 +108,7 @@
     font-size: 16px;
     line-height: 25px;
   }
-  
+
   .learnbtn {
     font-size: 15px;
   }
@@ -117,11 +117,9 @@
     font-size: 14px;
     line-height: 20px;
   }
-  
 }
 
 @media screen and (min-width: 1440px) {
-
   .reason {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -132,6 +130,7 @@
   .services {
     display: flex;
     flex-direction: row;
+
     /* gap: 1rem; */
   }
 
