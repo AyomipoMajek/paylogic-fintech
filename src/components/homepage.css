@@ -36,36 +36,36 @@
 
 .theimage {
   position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .phone1,
 .phone2,
 .phone3 {
   position: absolute;
-  align-items: center;
-  justify-content: center;
-  display: flex;
 }
 
 .phone1 {
   width: 7rem;
   z-index: 1;
   top: 5px;
-  left: 10px;
+  left: 5vw;
 }
 
 .phone2 {
   width: 9.5rem;
   z-index: 1;
   top: -15px;
-  left: 78px;
+  left: 24vw;
 }
 
 .phone3 {
   width: 7rem;
   z-index: 0;
   top: 0;
-  left: 180px;
+  left: 56vw;
 }
 
 .quote {

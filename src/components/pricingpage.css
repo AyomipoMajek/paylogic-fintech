@@ -57,13 +57,10 @@
 }
 
 @media screen and ( min-width: 768px) {
-  .pricingpage {
-    background-color: #222437;
-  }
   
   .intro h1 {
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 65px;
     padding-bottom: 25px;
   }
   
@@ -77,9 +74,9 @@
   
   .cards {
     position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    display: block;
     /* left: 1.8rem; */
   }
   
@@ -87,35 +84,134 @@
   .backcard,
   .otherbackcard {
     position: absolute;
-    width: 12rem;
+    width: 25rem;
     top: 5px;
   }
   
   .frontcard {
     /* width: 14rem; */
+    left: 23vw;
   }
   
   .backcard {
     /* width: 14rem; */
-    left: 6.3rem;
+    left: 33vw;
   }
   
   .otherbackcard {
     /* width: 14rem; */
-    left: 5.8rem;
+    left: 32vw;
   }
   
   .bars {
-    margin-top: 8.5rem;
+    margin-top: 16.5rem;
     padding-bottom: 2rem;
-    padding-left: 8.5rem;
+    padding-left: 47vw;
   }
 }
 
 @media screen and ( min-width: 1024px) {
+  .intro h1 {
+    font-size: 30px;
+    padding-top: 65px;
+    padding-bottom: 25px;
+  }
   
+  .intro p {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 15px;
+  }
+  
+  .cards {
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+    display: block;
+    /* left: 1.8rem; */
+  }
+  
+  .frontcard,
+  .backcard,
+  .otherbackcard {
+    position: absolute;
+    width: 25rem;
+    top: 5px;
+  }
+  
+  .frontcard {
+    /* width: 14rem; */
+    left: 27vw;
+  }
+  
+  .backcard {
+    /* width: 14rem; */
+    left: 35vw;
+  }
+  
+  .otherbackcard {
+    /* width: 14rem; */
+    left: 34vw;
+  }
+  
+  .bars {
+    margin-top: 17rem;
+    padding-bottom: 2rem;
+    padding-left: 47vw;
+  }
 }
 
 @media screen and ( min-width: 1440px) {
+  .intro h1 {
+    font-size: 48px;
+    padding-top: 65px;
+    padding-bottom: 25px;
+  }
   
+  .intro p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 18rem;
+    padding-right: 18rem;
+    padding-bottom: 15px;
+  }
+  
+  .cards {
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+    display: block;
+    /* left: 1.8rem; */
+  }
+  
+  .frontcard,
+  .backcard,
+  .otherbackcard {
+    position: absolute;
+    width: 35rem;
+    top: 5px;
+  }
+  
+  .frontcard {
+    /* width: 14rem; */
+    left: 27.5vw;
+  }
+  
+  .backcard {
+    /* width: 14rem; */
+    left: 35vw;
+  }
+  
+  .otherbackcard {
+    /* width: 14rem; */
+    left: 34vw;
+  }
+  
+  .bars {
+    margin-top: 24rem;
+    padding-bottom: 2rem;
+    padding-left: 48.3vw;
+  }
 }

@@ -4,6 +4,7 @@ import Homepage from '../components/Homepage';
 import Aboutpage from '../components/Aboutpage';
 import Servicespage from '../components/Servicespage';
 import Pricingpage from '../components/Pricingpage';
+import Blogpage from '../components/Blogpage';
 
 const Home = () => (
   <div>
@@ -12,6 +13,7 @@ const Home = () => (
     <Aboutpage />
     <Servicespage />
     <Pricingpage />
+    <Blogpage />
   </div>
 );
 
