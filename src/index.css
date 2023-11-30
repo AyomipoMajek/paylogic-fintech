@@ -51,6 +51,10 @@ ul li {
   border: none;
 }
 
+.btn:hover .btnlogo {
+  filter: brightness(0) invert(0);
+}
+
 .btn a {
   color: #fff;
 }

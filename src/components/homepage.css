@@ -173,24 +173,24 @@
 
 @media screen and (min-width: 1024px) {
   .main h1 {
-    margin-left: 18rem;
+    margin-left: 16rem;
     margin-right: 16rem;
     margin-top: 8rem;
   }
 
   .main p {
     width: 65%;
-    margin: 0 13rem;
+    margin: 0 11.5rem;
     font-size: 17px;
     line-height: 25px;
   }
 
   .buttons {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .theimage {
-    margin-left: 20rem;
+    margin-left: 19rem;
   }
     
   .phone1 {
@@ -211,11 +211,11 @@
 
   .quote {
     margin-top: 40rem;
-    margin-left: 3rem;
+    margin-left: 0;
   }
 
   .thesocials {
-    margin-left: 18rem;
+    margin-left: 16.5rem;
   }
 }
 
@@ -229,7 +229,7 @@
   .main p {
     font-size: 20px;
     width: 58%;
-    padding-left: 9rem;
+    padding-left: 8.5rem;
   }
 
   .btnlogo {
@@ -237,7 +237,7 @@
   }
 
   .buttons {
-    margin-left: 7rem;
+    margin-left: 2rem;
   }
 
   #btn3 {
@@ -246,7 +246,7 @@
   }
 
   .theimage {
-    margin-left: 35rem;
+    margin-left: 33rem;
   }
     
   .phone1 {
@@ -267,11 +267,11 @@
 
   .quote {
     margin-top: 40rem;
-    margin-left: 5rem;
+    margin-left: 1.5rem;
   }
 
   .thesocials {
-    margin-left: 32.5rem;
+    margin-left: 30.5rem;
   }
 
   .thesocials li {
