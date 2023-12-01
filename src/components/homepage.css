@@ -20,6 +20,11 @@
   line-height: 24px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .btnlogo {
   /* color: #fff; */
   width: 15px;
@@ -210,10 +215,6 @@
     line-height: 25px;
   }
 
-  .buttons {
-    margin-left: 0;
-  }
-
   .theimage {
     margin-left: 19rem;
   }
@@ -261,10 +262,6 @@
     width: 18px;
   }
 
-  .buttons {
-    margin-left: 2%;
-  }
-
   #btn3 {
     font-size: 14px;
     padding: 10px 15px;
@@ -276,18 +273,18 @@
 
   .phone1 {
     width: 17rem;
-    left: -140px;
+    left: -160px;
   }
 
   .phone2 {
     width: 23rem;
     top: -30px;
-    left: 20px;
+    left: 5px;
   }
 
   .phone3 {
     width: 17rem;
-    left: 270px;
+    left: 250px;
   }
 
   .quote {

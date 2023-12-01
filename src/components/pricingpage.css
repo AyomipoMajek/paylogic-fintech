@@ -57,6 +57,39 @@
   padding-left: 42vw;
 }
 
+@media screen and (max-width: 360px) {
+  .frontcard {
+    /* width: 14rem; */
+  }
+  
+  .backcard {
+    /* width: 14rem; */
+    left: 6.3rem;
+  }
+  
+  .otherbackcard {
+    /* width: 14rem; */
+    left: 5.8rem;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .frontcard {
+    /* width: 14rem; */
+  }
+  
+  .backcard {
+    /* width: 14rem; */
+    left: 36.5%;
+  }
+  
+  .otherbackcard {
+    /* width: 14rem; */
+    left: 35%;
+  }
+
+}
+
 @media screen and (min-width: 768px) {
   .intro h1 {
     font-size: 30px;
