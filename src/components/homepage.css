@@ -273,12 +273,13 @@
 
   .phone1 {
     width: 17rem;
+    left: -15%;
   }
 
   .phone2 {
     width: 23rem;
-    top: -30px;
-    left: 1%;
+    /* top: -30px; */
+    /* left: 1%; */
   }
 
   .phone3 {
