@@ -268,23 +268,22 @@
   }
 
   .theimage {
-    margin-left: 33rem;
+    margin-left: 37%;
   }
 
   .phone1 {
     width: 17rem;
-    left: -160px;
   }
 
   .phone2 {
     width: 23rem;
     top: -30px;
-    left: 5px;
+    left: 1%;
   }
 
   .phone3 {
     width: 17rem;
-    left: 250px;
+    left: 28.5%;
   }
 
   .quote {
