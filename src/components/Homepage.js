@@ -51,23 +51,25 @@ const Homepage = () => (
       </div>
       <div>
         <h3 className="quote">Trusted by World Leading Organisations</h3>
-        <ul className="thesocials">
-          <li className="coinbase">
-            <a href="https://www.coinbase.com/" target="_blank" rel="noopener noreferrer">
-              <img src={coinbase} alt="coinbase" />
-            </a>
-          </li>
-          <li className="spotify">
-            <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">
-              <img src={spotify} alt="spotify" />
-            </a>
-          </li>
-          <li className="flutterwave">
-            <a href="https://dashboard.flutterwave.com/login" target="_blank" rel="noopener noreferrer">
-              <img src={flutterwave} alt="flutterwave" />
-            </a>
-          </li>
-        </ul>
+        <div className="socials">
+          <ul className="thesocials">
+            <li className="coinbase">
+              <a href="https://www.coinbase.com/" target="_blank" rel="noopener noreferrer">
+                <img src={coinbase} alt="coinbase" />
+              </a>
+            </li>
+            <li className="spotify">
+              <a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">
+                <img src={spotify} alt="spotify" />
+              </a>
+            </li>
+            <li className="flutterwave">
+              <a href="https://dashboard.flutterwave.com/login" target="_blank" rel="noopener noreferrer">
+                <img src={flutterwave} alt="flutterwave" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
     </div>
